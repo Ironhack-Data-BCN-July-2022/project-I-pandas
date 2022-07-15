@@ -6,14 +6,17 @@ The goal of this project is to combine everything you have learned about data wr
 
 ## TO DO's
 
-1. Decide a hypothesis (or hypotheses) with which you will clean the data
+1. Decide on hypothesis (or hypotheses)
 2. Explore the data and write down what you have found
    - you can use: `df.describe()`, `df["column"]`, etc.
-3. Draw at least two graphs that are insightful. 
+3. Draw graphs that are insightful. 
 4. Use at least 5 data cleaning techniques inside a file named `clean.ipynb`
    - null values, columns drop, duplicated data, string manipulation, apply fn, categorize, regex, etc.
 5. Show data that validates the conclusions based on your hypoteses in a file named `analysis.ipynb`
 6. Build a compelling story-telling around your findings. Think of your stakeholders and convince them with your conclusions! (Some slides with few text and pretty plots are normally useful)
+7. Encapsulate your code into functions and save them into `.py` files: make sure you have docstrings
+8. Import those functions into your jupyter notebooks and call them (you will substitue your code with your own functions)
+9. Work on titles and comments to have a well presented and cohesive story in your notebook
 
 ## Suggested Ways to Get Started
 
@@ -26,7 +29,7 @@ The goal of this project is to combine everything you have learned about data wr
 
 ## How to deliver the project
 
-1. Create a new repo with the name `data-cleaning-pandas` on your github account.
+1. Create a new repo with the name `data-cleaning-pandas` on your github account (or another name)
    - Create a `README.md` file on repo root with project documentation. Make sure to include as much useful information as possible. Someone that finds the README.md should be able to fully get a gist of the project without browsing your files.
    - Include a `.gitignore`
    - At least 1 jupyter notebook is required
